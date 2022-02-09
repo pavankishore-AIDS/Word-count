@@ -26,8 +26,7 @@ Step 6:
 Calling the function and printing the number of words.
 
 ## PROGRAM:
-'''
-
+```
 #text.txt
 with open("text.txt",'w')as fp:
   fp.write("Hello have a good day")
@@ -44,10 +43,11 @@ def wordcount(filename):
   print("The word count is", count)
 filename=input("Enter filename:")
 wordcount(filename)
+```
 
-'''
 ### OUTPUT:
 ![](idle_out.png)
+
 ![](text_out.png)
 
 ## RESULT:
